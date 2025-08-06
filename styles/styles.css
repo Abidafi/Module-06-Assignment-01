@@ -294,3 +294,36 @@
     border: none;
     border-radius: 10px;
 }
+
+/* Footer Section Styles */
+.footer{
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-closure li{
+    list-style: none;
+}
+.footer-closure a{
+    text-decoration: none;
+}
+.footer-closure{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
