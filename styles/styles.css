@@ -43,6 +43,22 @@
     font-weight: bold;
     border: none;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary::after{
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 107%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #4E47FF, #e100ff);
+    z-index: -1;
+}
+.btn-primary:hover{
+    z-index: 0;
 }
 /* Header Styles */
 .header{
@@ -74,6 +90,10 @@
     height: 237px;
     margin: 0px auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 37px;
 }
 .banner-title{
@@ -91,6 +111,22 @@
     font-weight: bold;
     border: none;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button::after{
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 107%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #4E47FF, #e100ff);
+    z-index: -1;
+}
+.banner-button:hover{
+    z-index: 0;
 }
 /* Main Section */
 .main{
@@ -131,6 +167,22 @@
     font-weight: bold;
     border: none;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-button::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #4E47FF, #e100ff);
+    z-index: -1;
+}
+.action-button:hover{
+    z-index: 0;
 }
 .action-image{
     width: 403px;
@@ -266,7 +318,13 @@
     width: 840px;
     height: 555px;
     margin: 0px auto;
+}
+.special{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .per-title{
     color: black;
@@ -293,6 +351,23 @@
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.per-button::after{
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 107%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #4E47FF, #e100ff);
+    z-index: -1;
+}
+.per-button:hover{
+    z-index: 0;
 }
 .per-image{
     width: 840px;
@@ -358,6 +433,22 @@
     font-weight: normal;
     border: none;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label-button::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #4E47FF, #e100ff);
+    z-index: -1;
+}
+.label-button:hover{
+    z-index: 0;
 }
 
 /* Footer Section Styles */
